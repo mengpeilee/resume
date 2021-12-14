@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Testimonials extends Component {
+class Motto extends Component {
   render() {
 
     if(this.props.data){
@@ -15,12 +15,12 @@ class Testimonials extends Component {
     }
 
     return (
-      <section id="testimonials">
+      <section id="motto">
       <div className="text-container">
          <div className="row">
 
             <div className="two columns header-col">
-               <h1><span>Client Testimonials</span></h1>
+               <h1><span>My Motto</span></h1>
             </div>
 
             <div className="ten columns flex-container">
@@ -35,4 +35,4 @@ class Testimonials extends Component {
   }
 }
 
-export default Testimonials;
+export default Motto;
