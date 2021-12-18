@@ -47,7 +47,7 @@ class Resume extends Component {
          <div className="nine columns main-col">
           <div key={"skywatch"}><h3>Inventec & Skywatch Innovation Inc.</h3>
               <p className="info">Sr. Software Engineer<span>&bull;</span> <em className="date">Dec. 2019 – Present</em></p>
-              <p><span>&bull; </span>Project owner for <a href="https://github.com/Skywatch24/JS-Library" target="_blank">SDK</a> that supports enterprises in developing their IoT Services <strong>(number of devices: 50,000+)</strong></p>
+              <p><span>&bull; </span>Project owner for <a href="https://github.com/Skywatch24/JS-Library" target="_blank">SDK</a> that supports enterprises in developing their IoT Services. <strong>(number of devices: 50,000+)</strong></p>
               <p><span>&bull; </span>Led front-end team to separate front-end (JS, jQuery, React) from complicated back-end (PHP, Python, Node.js) architecture using Webpack and Jenkins, which led to an increase of <strong>50%</strong> in CI/CD performance.</p>
               <p><span>&bull; </span>Led iOS team to enhance the performance of an iOS product (Objective C) by creating new C++ middleware, compressing each binary file by 2000% <strong>(from 4MB to 200 KB)</strong> and causing the product to run 30% faster.</p>
               <p><span>&bull; </span>Used React Native cross-platform framework to reduce developing time by <strong>33%</strong> by integrating Web, iOS, Android structure into one codebase.</p>

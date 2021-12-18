@@ -52,7 +52,7 @@ const Answer = (props) => {
         } else if (respond.includes('school') || respond.includes('program') || respond.includes('university')) {
             setText(`I'm eager to apply to ${steps.school.message} that is the necessary next step in my career development.`);
         } else {
-            setText(`Sorry, I can't understand the question but I'm learning now.🙂`);
+            setText(`Sorry, I can't understand your question but I'm learning now.🙂`);
         }
     }, []);
 
@@ -138,11 +138,12 @@ const Chatbot = () => {
     return (
         <ThemeProvider theme={theme}>
             <ChatBot 
+                headerTitle={"Chat (beta)"}
                 steps={steps} 
                 recognitionEnable={true}
                 botAvatar={'/images/chatbot.png'} 
                 floating={true} 
-                opened={true} 
+                opened={false}
             />
         </ThemeProvider>
     )
