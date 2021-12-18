@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import ChatBot from 'react-simple-chatbot';
 import { ThemeProvider } from 'styled-components';
 import $ from 'jquery';
+import ReactGA from 'react-ga';
 
 const theme = {
     background: '#f5f8fb',
@@ -46,26 +47,44 @@ const Answer = (props) => {
     const respond = steps.menu.value.toLowerCase();
 
     useEffect(() => {
-        console.log(steps);
+        //console.log(steps);
+
+        let res = ''
+
         if(respond === 'menu') {
             triggerNextStep({ trigger: 'topics' });
         } else if (respond.includes('school') || respond.includes('program') || respond.includes('university')) {
-            setText(`I'm eager to apply to ${steps.school.message} that is the necessary next step in my career development.`);
+            res = `I'm eager to apply to ${steps.school.message} that is the necessary next step in my career development.`;
+            setText(res);
         }  else if (respond.includes('old')) {
-            setText(`I'm 26 years old`);
+            res = `I'm 26 years old`;
+            setText(res);
         } else if (respond.includes('goal') || respond.includes('objective')) {
-            setText(`My goal is to solve real-world problems to improve people’s lives with computer and software technology.`);
+            res = `My goal is to solve real-world problems to improve people’s lives with computer and software technology.`;
+            setText(res);
         } else if (respond.includes('weak')) {
-            setText(`When I have an argument with someone, I’m really rushed. Then I’ll talk to him/her immediately to find the problem. But sometime this is not a good way, because maybe they are in the emotion now, so that might cause the thing worse. Now, when I have an argument with someone,  i’ll make a different decisions which depends on the one of his/her personality.`);
+            res = `When I have an argument with someone, I’m really rushed. Then I’ll talk to him/her immediately to find the problem. But sometime this is not a good way, because maybe they are in the emotion now, so that might cause the thing worse. Now, when I have an argument with someone,  i’ll make a different decisions which depends on the one of his/her personality.`;
+            setText(res);
         } else if (respond.includes('strength') || respond.includes('project') || respond.includes('achievement') || respond.includes('accomplishment') || respond.includes('skill')) {
-            setText(`I'm familiar with Web and APP development (JS, Swift, C++, React), and I develpded a cross-platform social communication service, with an average of 10,000+ users online at the same time. (tico.app)`);
+            res = `I'm familiar with Web and APP development (JS, Swift, C++, React), and I develpded a cross-platform social communication service, with an average of 10,000+ users online at the same time. (tico.app)`;
+            setText(res);
         } else if (respond.includes('publication')) {
-            setText(`Meng-Pei Lee, Hsiang-Yu Hu, Hsing Mei, “Life Chasing: A Location-based Game Prototype for Elderly Health Promotion”, International Conference on Healthcare Service Management (ACM), Japan, 2018, pp. 265-271`);
+            res = `Meng-Pei Lee, Hsiang-Yu Hu, Hsing Mei, “Life Chasing: A Location-based Game Prototype for Elderly Health Promotion”, International Conference on Healthcare Service Management (ACM), Japan, 2018, pp. 265-271`;
+            setText(res);
         } else if (respond.includes('future') || respond.includes('next')) {
-            setText(`In the future, I will combine my existing Web and App know-how and what I'll learn from the program to continue in my career path in using software technology to positively impact people’s lives.`)
+            res = `In the future, I will combine my existing Web and App know-how and what I'll learn from the program to continue in my career path in using software technology to positively impact people’s lives.`;
+            setText(res);
         } else {
-            setText(`Sorry, I can't understand your question but I'm learning now.🙂`);
+            res = `Sorry, I can't understand your question but I'm learning now.🙂`;
+            setText(res);
         }
+
+        ReactGA.event({
+            category: 'Chatbot',
+            action: res,
+            label: respond,
+        });
+
     }, []);
 
     return (
