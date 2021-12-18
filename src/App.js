@@ -9,6 +9,7 @@ import Resume from './Components/Resume';
 import Contact from './Components/Contact';
 import Motto from './Components/Motto';
 import Portfolio from './Components/Portfolio';
+import Chatbot from './Components/Chatbot';
 
 class App extends Component {
 
@@ -33,7 +34,6 @@ class App extends Component {
         this.setState({resumeData: data});
       }.bind(this),
       error: function(xhr, status, err){
-        console.log(err);
         alert(err);
       }
     });
@@ -53,6 +53,7 @@ class App extends Component {
         <Motto data={this.state.resumeData.testimonials}/>
         {/* <Contact data={this.state.resumeData.main}/> */}
         <Footer data={this.state.resumeData.main}/>
+        <Chatbot />
       </div>
     );
   }
