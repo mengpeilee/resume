@@ -36,7 +36,7 @@ class Header extends Component {
          <div className="banner-text">
             <h1 className="responsive-headline">I'm {name}.</h1>
             <h3 style={{color: '#fff'}}>
-            This is not the normal resume page you’ve seen. You can <strong>TALK</strong> to this website via the chat button in the lower right corner!
+            A Software Engineer with over 4 years of experience eager to solve real-world problems via the power of software technology.
             </h3>
             <hr />
             <ul className="social">

@@ -3,10 +3,10 @@
     "name": "Meng Pei Lee",
     "occupation": "(Your Occupation Here)",
     "image": "profilepic.jpg",
-    "bio": "A Software Engineer with over 4 years of experience eager to utilize the Master's degree to solve real-world problems via the power of technology.",
+    "bio": "I'm a Software Engineer in Web and Mobile (react-native) development with over 4 years of experience.",
     "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
     "email": "peilee0718@gmail.com",
-    "phone": "+886-987-016-673",
+    "phone": "+1 (415) 294-1179",
     "address": {
       "street": "(Your Street)",
       "city": "(Your City)",
@@ -14,7 +14,7 @@
       "zip": "(Your Zip/Postal Code)"
     },
     "website": "http://www.timbakerdev.com",
-    "resumedownload": "https://drive.google.com/file/d/1hsXtgqgHh0ig6JsQ3MS7QuW3XRiY6ICM/view?usp=sharing",
+    "resumedownload": "https://drive.google.com/file/d/12KaPLdD_fMoIZgmClBproREpw51yIVLG/view?usp=sharing",
     "social": [
       {
         "name": "linkedin",
@@ -41,34 +41,6 @@
         "level": "90%"
       },
       {
-        "name": "C/C++",
-        "level": "70%"
-      },
-      {
-        "name": "Python",
-        "level": "60%"
-      },
-      {
-        "name": "Swift",
-        "level": "80%"
-      },
-      {
-        "name": "Objective C",
-        "level": "90%"
-      },
-      {
-        "name": "Jenkins",
-        "level": "60%"
-      },
-      {
-        "name": "Docker",
-        "level": "60%"
-      },
-      {
-        "name": "Kubernetes",
-        "level": "70%"
-      },
-      {
         "name": "React",
         "level": "95%"
       },
@@ -81,12 +53,28 @@
         "level": "80%"
       },
       {
-        "name": "MySQL",
+        "name": "Objective C",
         "level": "70%"
       },
       {
-        "name": "Redis",
+        "name": "Python",
         "level": "60%"
+      },
+      {
+        "name": "Swift",
+        "level": "40%"
+      },
+      {
+        "name": "Webpack",
+        "level": "85%"
+      },
+      {
+        "name": "Kubernetes",
+        "level": "60%"
+      },
+      {
+        "name": "Docker",
+        "level": "50%"
       }
      
     ]
@@ -100,22 +88,22 @@
         "url": "https://yukablog.com/"
       },
       {
-        "title": "Tico Wondercall",
-        "category": "The simplest built-in secure video connections for enterprise",
-        "image": "wondercall.jpg",
-        "url": "https://tico.chat/en/wondercall"
-      },
-      {
-        "title": "Tico Powercall",
-        "category": "A P2P-secured video meeting tool, which can start a video call in seconds",
-        "image": "powercall.jpg",
-        "url": "https://tico.chat/powercall"
-      },
-      {
         "title": "image-sequence-player",
         "category": "A video player that plays videos with image sequence",
         "image": "imagePlayer.jpg",
         "url": "https://github.com/Skywatch24/image-sequence-player"
+      },
+      {
+        "title": "Skywatch IoT SDK",
+        "category": "A library supports Skywatch video SDK and IoT sensors.",
+        "image": "skywatch-sdk.png",
+        "url": "https://github.com/Skywatch24/JS-Library"
+      },
+      {
+        "title": "Fit & Meets",
+        "category": "A gamified dating app that combines wearable devices and location based service",
+        "image": "Fit&Meets.jpg",
+        "url": "https://github.com/mengpeilee/Fit-Meets"
       },
       {
         "title": "Skywatch",
@@ -128,12 +116,6 @@
         "category": "All messages will be received at the best moments and times on Tico",
         "image": "tico.jpg",
         "url": "https://tico.app/"
-      },
-      {
-        "title": "Fit & Meets",
-        "category": "A gamified dating app that combines wearable devices and location based service",
-        "image": "Fit&Meets.jpg",
-        "url": "https://github.com/mengpeilee/Fit-Meets"
       },
       {
         "title": "react-native-fitbit",

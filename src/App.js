@@ -53,7 +53,7 @@ class App extends Component {
         <Motto data={this.state.resumeData.testimonials}/>
         {/* <Contact data={this.state.resumeData.main}/> */}
         <Footer data={this.state.resumeData.main}/>
-        <Chatbot />
+        {/* <Chatbot /> */}
       </div>
     );
   }
