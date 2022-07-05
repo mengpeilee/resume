@@ -24,7 +24,7 @@ class Resume extends Component {
                <div className="twelve columns">
                 <div key={"MS"}><h3>Carnegie Mellon University</h3>
                   <p className="info">Master of Science in Software Engineering<span>&bull;</span><em className="date">Aug. 2022 – Present</em></p>
-                  <p><strong>Looking for a 2023 summer intern position now.</strong></p>
+                  <p><strong>Looking for a 2023 summer internship.</strong></p>
                 </div>
                </div>
                <div className="twelve columns">
@@ -53,9 +53,9 @@ class Resume extends Component {
          <div className="nine columns main-col">
           <div key={"skywatch"}><h3>Inventec & Skywatch Innovation Inc.</h3>
               <p className="info">Sr. Software Engineer<span>&bull;</span> <em className="date">Dec. 2019 – Present</em></p>
-              <p><span>&bull; </span>Led <a href="https://www.skywatch24.com/home-en" target="_blank">front-end</a> team of 3 engineers to separate front-end (JS, jQuery, React) from complicated back-end (PHP, Python, Node.js) architecture using Webpack and Lerna (Monorepo), which led to <strong>a 50% increase </strong> in development speed.</p>
-              <p><span>&bull; </span>Led <a href="https://apps.apple.com/tw/app/skywatch-view/id523592053" target="_blank">APP</a> team of 3 engineers to integrate react-native with the existing native app, and also using multi-bundler to speed up APP by splitting each bundle file from <strong>4MB to 200 KB</strong>.</p>
-              <p><span>&bull; </span>Built <a href="https://line.me/R/ti/p/%40825xitig" target="_blank">Chatbot</a> server that can reply <strong>7000+ users at the same time</strong> by using Docker and Kubernetes on GCP.</p>
+              <p><span>&bull; </span>Led <a href="https://www.skywatch24.com/home-en" target="_blank">front-end</a> team of 2 engineers to separate front-end (JS, jQuery, React) from complicated back-end (PHP, Python, Node.js) architecture using Webpack and Lerna (Monorepo), which led to <strong>a 50% increase </strong> in development speed.</p>
+              <p><span>&bull; </span>Led <a href="https://apps.apple.com/tw/app/skywatch-view/id523592053" target="_blank">APP</a> team of 2 engineers to integrate react-native with the existing native app, and also using multi-bundler to speed up APP by splitting each bundle file from <strong>4MB to 200 KB</strong>.</p>
+              <p><span>&bull; </span>Built <a href="https://line.me/R/ti/p/%40825xitig" target="_blank">Chatbot</a> server that can reply <strong>thousands of users at the same time</strong> by using Docker and Kubernetes on GCP.</p>
               <p><span>&bull; </span>Project owner for <a href="https://github.com/Skywatch24/JS-Library" target="_blank">SDK</a> that supports enterprises in developing their IoT Services. <strong>(number of devices: 50,000+)</strong></p>
           </div>
           <div key={"tico"}><h3>Tico</h3>
