@@ -3,7 +3,7 @@
     "name": "Meng Pei Lee",
     "occupation": "(Your Occupation Here)",
     "image": "profilepic.jpg",
-    "bio": "I'm a Software Engineer in Web and Mobile (react-native) development with over 4 years of experience.",
+    "bio": "I am a senior software developer with expertise in APP, Web, and backend development, and a deep understanding of public cloud services like AWS, GCP, and Azure. ",
     "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
     "email": "peilee0718@gmail.com",
     "phone": "+1 (415) 294-1179",
@@ -14,7 +14,7 @@
       "zip": "(Your Zip/Postal Code)"
     },
     "website": "http://www.timbakerdev.com",
-    "resumedownload": "https://drive.google.com/file/d/1neHd85HRGllywXUXfYcB3wq3bnVH8PmW/view?usp=sharing",
+    "resumedownload": "https://drive.google.com/file/d/1ZPxN_YyU4L00l0yjk0h2ib0XWwlxIfME/view",
     "social": [
       {
         "name": "linkedin",
@@ -37,6 +37,10 @@
     "skillmessage": "",
     "skills": [
       {
+        "name": "Python",
+        "level": "80%"
+      },
+      {
         "name": "JavaScript",
         "level": "90%"
       },
@@ -54,10 +58,6 @@
       },
       {
         "name": "Objective C",
-        "level": "70%"
-      },
-      {
-        "name": "Python",
         "level": "60%"
       },
       {
@@ -74,6 +74,18 @@
       },
       {
         "name": "Docker",
+        "level": "60%"
+      },
+      {
+        "name": "Apache Airflow",
+        "level": "70%"
+      },
+      {
+        "name": "Apache Kafka",
+        "level": "50%"
+      },
+      {
+        "name": "Apache Spark",
         "level": "50%"
       }
      
