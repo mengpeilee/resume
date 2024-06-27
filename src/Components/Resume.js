@@ -14,22 +14,24 @@ class Resume extends Component {
           <div key={"tesla"}>
             <h3>Tesla</h3>
             <p className="info">
-              Software Engineer Intern<span>&bull;</span>{" "}
-              <em className="date">May. 2023 – Aug. 2023</em>
+              Sr. Software Engineer<span>&bull;</span>{" "}
+              <em className="date">May. 2023 – Present</em>
             </p>
             <p>
-              <span>&bull; </span> Developed a platform from scratch, enabling
+              <span>&bull; </span> Designed a platform from scratch, enabling
               Data Scientists to build visual web apps without any front-end
               knowledge, resulting in reduced their web development timelines
-              from one week to just one day.
+              <strong> from weeks to just a few days.</strong>
             </p>
             <p>
-              <span>&bull; </span> Migrated and restructured Airflow to support
-              NVIDIA GPU, enhancing scalability for ML model training.
+              <span>&bull; </span> Led the migration and restructuring of
+              Airflow to integrate NVIDIA GPU support, boosting scalability and
+              efficiency in machine learning model training processes.
             </p>
             <p>
-              <span>&bull; </span> Assisted team in integrating CI/CD pipeline,
-              accelerating development cycles and ensuring seamless updates.
+              <span>&bull; </span> Developed and integrated a robust CI/CD
+              pipeline, streamlining development cycles and ensuring seamless,
+              automated updates for machine learning models.
             </p>
           </div>
           <div key={"skywatch"}>
@@ -142,7 +144,7 @@ class Resume extends Component {
                   Master of Science in Software Engineering<span>&bull;</span>
                   <em className="date">Aug. 2022 – Dec. 2023</em>
                   <br />
-                  <em className="date">Cumulative GPA: 3.62 / 4.0</em>
+                  <em className="date">Overall GPA: 3.7 / 4.0</em>
                 </p>
                 <p>
                   <strong>Coursework</strong>
@@ -165,7 +167,7 @@ class Resume extends Component {
                   Master of Science in Computer Science<span>&bull;</span>
                   <em className="date">Sep. 2017 – Jun. 2018</em>
                   <br />
-                  <em className="date">Cumulative GPA: 3.97 / 4.0</em>
+                  <em className="date">Overall GPA: 3.97 / 4.0</em>
                 </p>
                 <p>
                   <strong>PUBLICATION: </strong>
