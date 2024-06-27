@@ -14,7 +14,7 @@
       "zip": "(Your Zip/Postal Code)"
     },
     "website": "http://www.timbakerdev.com",
-    "resumedownload": "https://drive.google.com/file/d/1ZPxN_YyU4L00l0yjk0h2ib0XWwlxIfME/view",
+    "resumedownload": "https://drive.google.com/file/d/17yzMevWMdZo9MzJei84HJlpEwP0gzvX3/view?usp=sharing",
     "social": [
       {
         "name": "linkedin",
@@ -61,8 +61,12 @@
         "level": "60%"
       },
       {
-        "name": "Swift",
-        "level": "40%"
+        "name": "LLM",
+        "level": "70%"
+      },
+      {
+        "name": "Transformers",
+        "level": "60%"
       },
       {
         "name": "Webpack",
